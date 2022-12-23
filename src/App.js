@@ -1,3 +1,4 @@
+import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
@@ -9,12 +10,12 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Home/>
-      <SobreMi/>
-      <Proyectos/>
-      <Experience/>
-
-      <SocialLinks/>
+      <Home />
+      <SobreMi />
+      <Proyectos />
+      <Experience />
+      <Contact />
+      <SocialLinks />
     </div>
   );
 }

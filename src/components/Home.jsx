@@ -2,7 +2,7 @@ import React from 'react'
 import { GoBookmark } from "react-icons/go";
 import { GoChevronRight } from "react-icons/go";
 import fotoPerfil from "../assets/para perfil 23.png";
-
+import { Link } from 'react-scroll';
 
 const Home = () => {
     return (
@@ -16,12 +16,12 @@ const Home = () => {
                         Más de 10 años en el Diseño Digital y Gráfico. Actualmente, aprendiendo coding 4.0 Javascript...
                     </p>
                     <div>
-                        <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md cursor-pointer bg bg-gradient-to-l  from-slate-800 to-slate-900' >
+                        <Link to="proyectos" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md cursor-pointer bg bg-gradient-to-l  from-slate-800 to-slate-900' >
                             Portfolio
                             <span className='group-hover:rotate-90 duration-300'>
                                 <GoChevronRight size={25} className='ml-1' />
                             </span>
-                        </button>
+                        </Link>
                     </div>
                 </div>
                 <div>
