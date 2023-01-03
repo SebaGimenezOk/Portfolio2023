@@ -60,19 +60,18 @@ const Experience = () => {
             style: 'shadow-blue-500'
         },
         {
-            id: 8,
+            id: 9,
             src: graphql,
             titulo: 'graphql',
             style: 'shadow-pink-500'
         }
     ]
 
-
     return (
-        <div name="experience" className=' pb-10 bg-gradient-to-b from-slate-800 to-black py-8 w-full '>
+        <div name="skills" className=' pb-10  bg-slate-900 py-8 w-full '>
             <div className='max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full text-white'>
                 <div>
-                    <p className='text-5xl capitalize font-bold inline border-b-4 border-gray-500 '>Experience</p>
+                    <p className='text-5xl capitalize font-bold inline border-b-4 border-gray-500 '>FrontEnd</p>
                     <p className= "text-gray-200 py-6" >Tech con las que trabajo</p>
                 </div>
                 <div className='w-full grid grid-cols-2 sm:grid-cols-9 gap-8 text-center py-8 px-12 sm:px-0'>

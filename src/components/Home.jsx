@@ -6,15 +6,16 @@ import { Link } from 'react-scroll';
 
 const Home = () => {
     return (
-        <div name='inicio' className='h-screen  w-full bg-gradient-to-b from-black  to-gray-800'>
+        <div name='inicio' className='h-screen  w-full  bg-slate-900'>
             <div className='max-w-screen-lg  mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
                 <div className='flex flex-col justify-center h-full '>
                     <h2 className='text-4xl sm:text-7xl font-semibold text-gray-300'  >
                         I'm  a FullStack Developer MERN STACK <GoBookmark />
                     </h2>
                     <p className='text-gray-400 py-6 max-w-md'>
-                        Más de 10 años en el Diseño Digital y Gráfico. Actualmente, aprendiendo coding 4.0 Javascript...
-                    </p>
+                        Este sitio esta hecho usando Node, React and Tailwind.......                            
+                        ... puedes ver el code en mi github,  el deploy esta hecho en Netifly..                      </p>
+                        
                     <div>
                         <Link to="proyectos" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md cursor-pointer bg bg-gradient-to-l  from-slate-800 to-slate-900' >
                             Portfolio
