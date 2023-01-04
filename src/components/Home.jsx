@@ -26,7 +26,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div>
-                    <img src={fotoPerfil} alt="my archivo" className='rounded-2xl mx-auto  h-2/3  md:w-full ' />
+                    <img src={fotoPerfil} alt="my archivo" className='rounded-2xl mx-auto  h-2/3  md:w-full xs:w-2/4 ' />
                 </div>
             </div>
         </div>
