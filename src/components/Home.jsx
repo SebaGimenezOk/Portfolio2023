@@ -14,7 +14,7 @@ const Home = () => {
                     </h2>
                     <p className='text-gray-400 py-6 max-w-md'>
                         Este sitio esta hecho usando Node, React and Tailwind.......                            
-                        ... puedes ver el code en mi github,  el deploy esta hecho en Netifly..                      </p>
+                        ... puedes ver el code en mi github,  el deploy esta hecho en Netifly.. </p>
                         
                     <div>
                         <Link to="proyectos" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md cursor-pointer bg bg-gradient-to-l  from-slate-800 to-slate-900' >
@@ -26,7 +26,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div>
-                    <img src={fotoPerfil} alt="my archivo" className='rounded-2xl mx-auto  h-2/4  md:w-4/5 ' />
+                    <img src={fotoPerfil} alt="my archivo" className='rounded-2xl mx-auto  h-2/3  md:w-full ' />
                 </div>
             </div>
         </div>
