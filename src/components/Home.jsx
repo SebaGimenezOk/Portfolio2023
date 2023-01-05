@@ -9,7 +9,7 @@ const Home = () => {
         <div name='inicio' className='h-screen  w-full  bg-slate-900'>
             <div className='max-w-screen-lg mx-auto py-10 flex flex-col items-center justify-center h-full  px-4  md:flex-row'>
                 <div className='flex flex-col justify-center h-full  '>
-                    <h3 className='text-4xl sm:text-5xl font-semibold text-gray-300'  >
+                    <h3 className='text-4xl sm:text-5xl font-semibold text-gray-300 my-3'  >
                         I'm  a FullStack Developer MERN STACK <GoBookmark /> </h3>
                     <p className='text-gray-400'>
                         Este sitio esta hecho con NodeJs, React and Tailwind.
