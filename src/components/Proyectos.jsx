@@ -37,7 +37,7 @@ const Proyectos = () => {
 
 
   return (
-    <div name="proyectos" className=' bg-slate-900 w-full text-white  md:h-screen' >
+    <div name="proyectos" className=' bg-gradient-to-t from-black to-slate-900 w-full text-white  md:h-screen' >
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-5xl capitalize font-bold inline border-b-4 border-gray-500'>Portfolio</p>
