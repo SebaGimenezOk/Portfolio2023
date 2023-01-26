@@ -13,9 +13,9 @@ function App() {
       <Navbar />
       <Home />
       <SobreMi />
-      <Proyectos />
       <Experience />
       <Experience2 />
+      <Proyectos />
       <Contact />
       <SocialLinks />
     </div>

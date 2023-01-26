@@ -39,10 +39,10 @@ const SocialLinks = () => {
             id: 4,
             child: (
                 <>
-                    Resumen  <BsFillPersonLinesFill size={30} />
+                    Descargar <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: '/SebastianGimenez2022.pdf',
+            href: '/Sebastian Gimenez CV Enero2023.pdf',
             style: 'rounded-br-md',
             download: true,
         },

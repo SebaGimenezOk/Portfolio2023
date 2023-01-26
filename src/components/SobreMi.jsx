@@ -7,10 +7,14 @@ const SobreMi = () => {
                 <div className=' pb-5'>
                     <p className='text-5xl capitalize font-bold inline border-b-4 border-gray-500'>sobre mi</p>
                 </div>
-                  <p className='text-gray-400 py-6 '>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, nostrum obcaecati recusandae perferendis cumque sint eveniet quaerat culpa vitae fugiat assumenda, totam accusantium necessitatibus ut qui autem rerum alias eos ab. Placeat nisi illum cum, iusto omnis tenetur inventore fuga, quae corrupti libero sed. Inventore consequatur doloribus voluptatibus id mollitia!</p>
-                <br />
+                <p className='text-gray-400 py-6 '>La primera parte de mi vida ha sido en las Estaciones FM, como conductor y locutor comercial he trabajado en más de 15 radios. Desde mi debut allá por los años 1997 hasta nuestros días que continúo en el aire unas horas.</p>
                 <p className='text-gray-400 py-6 '>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vero, ab ipsum corporis accusamus eum aspernatur culpa ratione soluta quae amet ex adipisci nemo vitae maiores saepe, quod reprehenderit nostrum porro a recusandae exercitationem laborum dolores! Distinctio, ad dolores rerum sequi quia neque aspernatur nihil? Expedita quibusdam sunt nesciunt omnis.
+                    La segunda parte comienza en los años 2007 cuando el hobby de diseñar pasó a ser profesión y desde allí una metamorfosis entre el mundo gráfico y digital. Estos últimos años comencé a estudiar programación viendo los avances agigantados en el mundo web.
+                </p>
+                <p className='text-gray-400 py-6 '>
+                    Creo que esta Tercera Etapa como programador será la última y quizás la más satisfactoria.
+                    El universo digital se expande a cada instante, pero también unifica contenidos; donde todo lo anterior me ha servido para llegar aquí.
+                    Espero que podamos crear proyectos juntos! Abrazo, Sebastian
                 </p>
             </div>
         </div>

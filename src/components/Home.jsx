@@ -10,14 +10,13 @@ const Home = () => {
             <div className='max-w-screen-lg mx-auto py-10 flex flex-col items-center justify-center h-full  px-4  md:flex-row'>
                 <div className='flex flex-col justify-center h-full  '>
                     <h3 className='text-4xl sm:text-5xl font-semibold text-gray-300 my-3'  >
-                        I'm  a FullStack Developer MERN STACK <GoBookmark /> </h3>
+                        I'm  a FullStack Developer  MERN STACK  <GoBookmark size={80} className='my-6' /> </h3>
                     <p className='text-gray-400'>
                         Este sitio esta hecho con NodeJs, React and Tailwind.
-                        Idea original de @zeroyashp </p>
-
+                    </p>
                     <div>
-                        <Link to="proyectos" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md cursor-pointer bg bg-gradient-to-l  from-slate-800 to-slate-900' >
-                            Portfolio
+                        <Link to="skills" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md cursor-pointer bg bg-gradient-to-l  from-slate-800 to-slate-900' >
+                            Skills
                             <span className='group-hover:rotate-90 duration-300'>
                                 <GoChevronRight size={25} className='ml-1' />
                             </span>
