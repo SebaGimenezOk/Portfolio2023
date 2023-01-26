@@ -15,8 +15,8 @@ const SobreMi = () => {
                     Estos últimos años comencé a estudiar programación viendo los avances agigantados en el mundo web.
                     Creo que esta Tercera Etapa como programador será la última y quizás la más satisfactoria.
                     El universo digital se expande a cada instante, pero también unifica contenidos; donde todo lo anterior me ha servido para llegar aquí.
-                    Espero que podamos crear proyectos juntos! Abrazo, Sebastian
                 </p>
+                <p className='text-gray-400 py-6 '>Espero que podamos crear proyectos juntos! Abrazo, Sebastian </p>
             </div>
         </div>
     )
