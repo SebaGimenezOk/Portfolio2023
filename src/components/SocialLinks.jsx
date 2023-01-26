@@ -39,7 +39,7 @@ const SocialLinks = () => {
             id: 4,
             child: (
                 <>
-                    Descargar <BsFillPersonLinesFill size={30} />
+                    Mi CV <BsFillPersonLinesFill size={30} />
                 </>
             ),
             href: '/Sebastian Gimenez CV Enero2023.pdf',
