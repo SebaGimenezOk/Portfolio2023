@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 
 const Home = () => {
     return (
-        <div name='inicio' className='h-screen  w-full  bg-gradient-to-t from-black to-slate-900'>
+        <div name='inicio' className='md:h-screen  w-full  bg-gradient-to-t from-black to-slate-900'>
             <div className='max-w-screen-lg mx-auto py-10 flex flex-col items-center justify-center h-full  px-4  md:flex-row'>
                 <div className='flex flex-col justify-center h-full  '>
                     <h3 className='text-4xl sm:text-5xl font-semibold text-gray-300 my-3'  >
@@ -30,5 +30,5 @@ const Home = () => {
         </div>
     )
 }
-
+                                                                                                                                            
 export default Home
