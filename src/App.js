@@ -6,6 +6,7 @@ import Proyectos from "./components/Proyectos";
 import SobreMi from "./components/SobreMi";
 import SocialLinks from "./components/SocialLinks";
 import Experience2 from "./components/Experience2";
+import SocialLinksFooter from "./components/SocialLinksFooter";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Proyectos />
       <Contact />
       <SocialLinks />
+      <SocialLinksFooter/>
     </div>
   );
 }
