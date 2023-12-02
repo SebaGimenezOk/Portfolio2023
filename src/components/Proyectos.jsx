@@ -1,9 +1,9 @@
 import React from 'react'
 import asterion from "../assets/works/asterion.png"
-import macnally from "../assets/works/macnally.png"
+import TiendaReact from "../assets/works/TiendaReact.png"
 import rdn from "../assets/works/rdn.png"
 import sigales from "../assets/works/sigales.png"
-import silin from "../assets/works/silin.png"
+import SimpsonsGame from "../assets/works/SimpsonGamePortada.png"
 import pontecle from "../assets/works/pontecle.png"
 
 const Proyectos = () => {
@@ -11,27 +11,37 @@ const Proyectos = () => {
   const portfolios = [
     {
       id: 1,
-      src: asterion
+      src: asterion,
+      titulo: 'Asterion',
     },
     {
       id: 2,
-      src: macnally
+      src: TiendaReact,
+      titulo: 'Tienda React PonteCLe',
+      link:'https://github.com/SebaGimenezOk/tienda-React'
     },
     {
       id: 3,
-      src: rdn
+      src: rdn,
+      titulo: 'Radio de las Naciones',
+      link:'https://rdnweb.netlify.app/',
     },
     {
       id: 4,
-      src: sigales
+      src: sigales,
+      titulo: 'Sigales',
     },
     {
       id: 5,
-      src: silin
+      src: SimpsonsGame,
+      titulo: 'Simpsons Game',
+      link:'https://sebagimenezok.github.io/SimpsonsGame/',
     },
     {
       id: 6,
-      src: pontecle
+      src: pontecle,
+      titulo: 'PonteCle',
+      link: 'https://sebagimenezok.github.io/Pontecle26/',
     }
   ]
 
@@ -45,12 +55,12 @@ const Proyectos = () => {
         </div>
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-12'>
         {
-          portfolios.map(({ id, src }) => (
+          portfolios.map(({ id, src, link,titulo}) => (
             <div key={id} className='rounded-lg'>
               <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
+              <h3 className='flex justify-center p-3'>{titulo}</h3>
               <div className='flex items-center justify-center ' >
-                <button className='w-1/3 px-2 py-3 m-4 duration-200 hover:scale-105 '>Demo</button>
-                <button className='w-1/3 px-2 py-3 m-4 duration-200 hover:scale-105 '>Code</button>
+                <button onClick={() => window.location.href = link} className='w-1/3 px-1 py-1 duration-200 hover:scale-105 '>ver demo</button>
               </div>
             </div>
           ))

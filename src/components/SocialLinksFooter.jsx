@@ -42,7 +42,7 @@ const SocialLinksFooter = () => {
                     Mi CV <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: '/Sebastian Gimenez CV Febrero2023.pdf',
+            href: '/Sebastian Gimenez CV Diciembre 2023.pdf',
             style: 'rounded-br-md',
             download: true,
         },

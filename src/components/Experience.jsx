@@ -17,6 +17,14 @@ import logoredis from '../assets/skills/logoredis.png'
 import logomaria from '../assets/skills/logomariadb.png'
 import logosass from '../assets/skills/logosass.png'
 import tullio from '../assets/skills/logotullio.png'
+import Xcode from '../assets/skills/Xcode.png'
+import AndroidSt from '../assets/skills/Android-Studio.png'
+import ExpoGo from '../assets/skills/ExpoGo.png'
+
+
+
+
+
 
 const Experience = () => {
 
@@ -105,7 +113,7 @@ const Experience = () => {
             titulo: 'sass',
             style: 'shadow-pink-500'
         },
-         {
+        {
             id: 15,
             src: firebase,
             titulo: 'firebase',
@@ -128,6 +136,29 @@ const Experience = () => {
             src: tullio,
             titulo: 'tullio',
             style: 'shadow-pink-500'
+        },
+        {
+            id: 19,
+            src: logoreact,
+            titulo: 'React Native',
+        },
+        {
+            id: 20,
+            src: Xcode,
+            titulo: 'Xcode',
+            style: 'shadow-pink-500'
+        },
+        {
+            id: 21,
+            src: ExpoGo,
+            titulo: 'Expo Go',
+            style: 'shadow-pink-500'
+        },
+        {
+            id: 22,
+            src: AndroidSt,
+            titulo: 'Android Studio',
+            style: 'shadow-pink-500'
         }
     ]
 
@@ -136,7 +167,7 @@ const Experience = () => {
             <div className='max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full text-white'>
                 <div>
                     <p className='text-5xl capitalize font-bold inline border-b-4 border-gray-500 '>Skills </p>
-                    <p className= "text-gray-200 py-6" >tengo conocimientos y manejo de </p>
+                    <p className="text-gray-200 py-6" >tengo conocimientos y manejo de </p>
                 </div>
                 <div className='w-full grid grid-cols-2 sm:grid-cols-9 gap-8 text-center py-8 px-12 sm:px-0'>
                     {

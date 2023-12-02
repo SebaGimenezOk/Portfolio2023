@@ -7,14 +7,30 @@ const SobreMi = () => {
                 <div className=' pb-5'>
                     <p className='text-5xl capitalize font-bold inline border-b-4 border-gray-500'>sobre mi</p>
                 </div>
-                <p className='text-gray-400 py-6'> Hola! Soy Sebastian, este año cumplo 46, estoy casado y a punto de ser papá!</p>
-                <p className='text-gray-400 py-6'>La primera parte de mi vida ha sido en las Estaciones FM, como conductor y locutor comercial he trabajado en más de 15 radios. Mi debut fue allá por los años 1997 hasta nuestros días que continúo en el aire, unas horas.</p>
-                <p className='text-gray-400 py-6'>La Segunda Etapa comienza en los años 2007 cuando el hobby de diseñar pasó a ser profesión y desde allí una metamorfosis entre el mundo gráfico y digital.  Me gusta muchísimo crear logotipos, flyers y cartelería. </p>
-                <p className='text-gray-400 py-6'>Estos últimos años comencé a estudiar programación viendo los avances agigantados en el mundo web.
-                    Creo que esta Tercera Etapa como programador será la última y quizás la más satisfactoria.
-                    El universo digital se expande a cada instante, pero también unifica contenidos; donde todo lo anterior me ha servido para llegar aquí.
-                </p>
-                <p className='text-gray-400 py-6 '>Espero que podamos crear proyectos juntos! Abrazo, Sebastian </p>
+                
+
+                <p class="mb-4">Soy un apasionado desarrollador de aplicaciones móviles con experiencia reciente en tecnologías como React Native, Expo Go y Redux. Completé mi formación académica con un enfoque especial en el desarrollo frontend, donde me destaco en la creación de experiencias web atractivas y receptivas.</p>
+
+                <p class="mb-4"><strong>Habilidades Técnicas:</strong></p>
+                <ul class="mb-6">
+                    <li>Desarrollo Frontend: HTML5, CSS3, Responsive Web Design, SASS, Bootstrap, Material UI, TailwindCSS.</li>
+                    <li>Lenguajes: JavaScript ES6, TypeScript, React para el desarrollo frontend.</li>
+                    <li>Desarrollo Backend: NodeJS, Express para la construcción de servidores robustos.</li>
+                    <li>Bases de datos: Experiencia en MySQL y MongoDB para el manejo eficiente de datos.</li>
+                    <li>Control de Versiones: Competente en el uso de Git para gestionar y mantener un historial preciso de los cambios en el código fuente.</li>
+                </ul>
+
+                <p class="mb-4"><strong>Herramientas y Metodologías:</strong></p>
+                <ul class="mb-6">
+                    <li>Desarrollo de Proyectos: Utilizo VSCode y diversas herramientas de desarrollo para garantizar eficiencia y calidad en el código.</li>
+                    <li>Colaboración: He trabajado en entornos colaborativos utilizando GitHub y Discord para facilitar la comunicación y la gestión de proyectos.</li>
+                    <li>Metodología de Desarrollo: Experiencia en el desarrollo de proyectos siguiendo la metodología JIRA, lo que garantiza una planificación y ejecución eficientes.</li>
+                </ul>
+
+                <p class="mb-4">Mi enfoque profesional no solo se centra en la escritura de código, sino también en la resolución creativa de problemas y la mejora continua. Estoy constantemente buscando oportunidades para ampliar mis habilidades y contribuir al éxito de proyectos emocionantes. ¡Estoy emocionado por las oportunidades que ofrece el mundo del desarrollo y siempre estoy abierto a nuevas conexiones y colaboraciones!</p>
+
+
+                <p className='py-6 '>Espero que podamos crear proyectos juntos! Abrazo, Sebastian </p>
             </div>
         </div>
     )
