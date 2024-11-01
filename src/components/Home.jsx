@@ -10,7 +10,7 @@ const Home = () => {
             <div className='max-w-screen-lg mx-auto py-10 flex flex-col items-center justify-center h-full  px-4  md:flex-row'>
                 <div className='flex flex-col justify-center h-full  '>
                     <h3 className='text-4xl sm:text-5xl font-semibold text-gray-300 my-3'  >
-                        I'm  a FullStack Developer  MERN STACK  <GoBookmark size={80} className='my-6' /> </h3>
+                        Hola! Soy Sebastian, programador de apps web y moviles y analista de datos.  <GoBookmark size={80} className='my-6' /> </h3>
                     <p className='text-gray-400'>
                         Este sitio esta hecho con NodeJs, React and Tailwind.
                     </p>

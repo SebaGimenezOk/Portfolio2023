@@ -7,27 +7,9 @@ const SobreMi = () => {
                 <div className=' pb-5'>
                     <p className='text-5xl capitalize font-bold inline border-b-4 border-gray-500'>sobre mi</p>
                 </div>
-                
 
-                <p class="mb-4">Soy un apasionado desarrollador de aplicaciones móviles con experiencia reciente en tecnologías como React Native, Expo Go y Redux. Completé mi formación académica con un enfoque especial en el desarrollo frontend, donde me destaco en la creación de experiencias web atractivas y receptivas.</p>
 
-                <p class="mb-4"><strong>Habilidades Técnicas:</strong></p>
-                <ul class="mb-6">
-                    <li>Desarrollo Frontend: HTML5, CSS3, Responsive Web Design, SASS, Bootstrap, Material UI, TailwindCSS.</li>
-                    <li>Lenguajes: JavaScript ES6, TypeScript, React para el desarrollo frontend.</li>
-                    <li>Desarrollo Backend: NodeJS, Express para la construcción de servidores robustos.</li>
-                    <li>Bases de datos: Experiencia en MySQL y MongoDB para el manejo eficiente de datos.</li>
-                    <li>Control de Versiones: Competente en el uso de Git para gestionar y mantener un historial preciso de los cambios en el código fuente.</li>
-                </ul>
-
-                <p class="mb-4"><strong>Herramientas y Metodologías:</strong></p>
-                <ul class="mb-6">
-                    <li>Desarrollo de Proyectos: Utilizo VSCode y diversas herramientas de desarrollo para garantizar eficiencia y calidad en el código.</li>
-                    <li>Colaboración: He trabajado en entornos colaborativos utilizando GitHub y Discord para facilitar la comunicación y la gestión de proyectos.</li>
-                    <li>Metodología de Desarrollo: Experiencia en el desarrollo de proyectos siguiendo la metodología JIRA, lo que garantiza una planificación y ejecución eficientes.</li>
-                </ul>
-
-                <p class="mb-4">Mi enfoque profesional no solo se centra en la escritura de código, sino también en la resolución creativa de problemas y la mejora continua. Estoy constantemente buscando oportunidades para ampliar mis habilidades y contribuir al éxito de proyectos emocionantes. ¡Estoy emocionado por las oportunidades que ofrece el mundo del desarrollo y siempre estoy abierto a nuevas conexiones y colaboraciones!</p>
+                <p class="mb-4">Desarrollador de aplicaciones web y móviles con experiencia en análisis de datos. Formación en Power BI, SQL Server, Excel y Google Sheets. Experiencia en React Native, Expo Go y Redux para aplicaciones móviles; React, TypeScript y JavaScript para desarrollo web. Conocimientos en NodeJS, Express, MySQL y MongoDB. Competencia en HTML5, CSS3, SASS y frameworks como Bootstrap y Material UI. Enfoque en soluciones funcionales, optimización de procesos y colaboración en entornos ágiles.</p>
 
 
                 <p className='py-6 '>Espero que podamos crear proyectos juntos! Abrazo, Sebastian </p>
