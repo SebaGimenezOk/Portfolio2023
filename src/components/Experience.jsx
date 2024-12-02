@@ -163,16 +163,16 @@ const Experience = () => {
     ]
 
     return (
-        <div name="skills" className='pb-10 bg-gradient-to-t from-black to-slate-900 py-4 w-full h-full '>
-            <div className='max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full text-white'>
+        <div name="skills" className='pb-10 bg-gradient-to-t from-orange-200 to-orange-100 py-4 w-full h-full '>
+            <div className='max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full text-stone-600'>
                 <div>
                     <p className='text-5xl capitalize font-bold inline border-b-4 border-gray-500 '>Skills </p>
-                    <p className="text-gray-200 py-6" >tengo conocimientos y manejo de </p>
+                    <p className="text-stone-600 py-6" >tengo conocimientos y manejo de </p>
                 </div>
                 <div className='w-full grid grid-cols-2 sm:grid-cols-9 gap-8 text-center py-8 px-12 sm:px-0'>
                     {
                         techs.map(({ id, src, titulo, style }) => (
-                            <div key={id} className={`hover:scale-105 duration-500 rounded-lg py-2 ${style}`}>
+                            <div key={id} className={`hover:scale-125 duration-500 rounded-lg py-2 ${style}`}>
                                 <img src={src} alt="" className='w-20 mx-auto' />
                                 <p className='mt-4'>{titulo}</p>
                             </div>

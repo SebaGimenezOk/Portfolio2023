@@ -60,11 +60,11 @@ const Proyectos = () => {
 
 
   return (
-    <div name="proyectos" className=' bg-gradient-to-t from-black to-slate-900 w-full text-white  md:h-screen' >
+    <div name="proyectos" className='bg-gradient-to-t from-orange-200 to-orange-100 w-full text-stone-600  md:h-screen' >
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-5xl capitalize font-bold inline border-b-4 border-gray-500'>Proyectos</p>
-          <p className="text-gray-200 py-6" >Algunos de mis trabajos:  Logos, Branding, PressKit, Flyers, Banners,etc... ( Todavía en construcción )</p>
+          <p className="text-stone-600 py-6" >Algunos de mis trabajos:  Logos, Branding, PressKit, Flyers, Banners,etc... ( Todavía en construcción )</p>
         </div>
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-12'>
           {
