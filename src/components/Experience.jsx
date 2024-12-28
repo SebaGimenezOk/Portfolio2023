@@ -163,11 +163,11 @@ const Experience = () => {
     ]
 
     return (
-        <div name="skills" className='pb-10 bg-gradient-to-t from-orange-200 to-orange-100 py-4 w-full h-full '>
-            <div className='max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full text-stone-600'>
-                <div>
-                    <p className='text-5xl capitalize font-bold inline border-b-4 border-gray-500 '>Skills </p>
-                    <p className="text-stone-600 py-6" >tengo conocimientos y manejo de </p>
+        <div name="skills" className='pb-10 bg-gradient-to-t from-gray-900 to-slate-900 py-4 w-full h-full '>
+            <div className='max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full my-20 text-stone-100'>
+                <div className='px-4'>
+                    <p className='text-5xl capitalize font-bold inline border-b-4  border-gray-100 '>Skills </p>
+                    <p className="text-stone-100 py-6" >tengo conocimientos y manejo de </p>
                 </div>
                 <div className='w-full grid grid-cols-2 sm:grid-cols-9 gap-8 text-center py-8 px-12 sm:px-0'>
                     {

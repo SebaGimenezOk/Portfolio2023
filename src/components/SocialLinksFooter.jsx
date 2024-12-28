@@ -50,7 +50,7 @@ const SocialLinksFooter = () => {
 
 
     return (
-        <div className=' flex justify-center items-center bg-gradient-to-t from-orange-900 to-orange-700
+        <div className=' flex justify-center items-center bg-gradient-to-t from-gray-900 to-slate-900
         
         pb-10'  >
             <ul>

@@ -30,7 +30,7 @@ const Proyectos = () => {
     {
       id: 3,
       src: rdn,
-      titulo: 'Radio de las Naciones',
+      titulo: 'Radio Naciones',
       link: 'https://rdnweb.netlify.app/',
       tools: 'react js, tailwind'
     },
@@ -60,13 +60,13 @@ const Proyectos = () => {
 
 
   return (
-    <div name="proyectos" className='bg-gradient-to-t from-orange-200 to-orange-100 w-full text-stone-600  md:h-screen' >
-      <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
-        <div className='pb-8'>
-          <p className='text-5xl capitalize font-bold inline border-b-4 border-gray-500'>Proyectos</p>
-          <p className="text-stone-600 py-6" >Algunos de mis trabajos:  Logos, Branding, PressKit, Flyers, Banners,etc... ( Todavía en construcción )</p>
+    <div name="proyectos" className='bg-gradient-to-t from-gray-900 to-slate-900 w-full text-stone-100  md:max-h-full' >
+      <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full gap-8'>
+        <div className='pb-8 mt-32 '>
+          <p className='text-5xl capitalize font-bold inline border-b-4  border-gray-100'>Proyectos</p>
+          <p className="text-stone-100 py-6" >Algunos de mis trabajos:  Logos, Branding, PressKit, Flyers, Banners,etc... ( Todavía en construcción )</p>
         </div>
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-12'>
+        <div className='grid sm:grid-cols-2 md:grid-cols-3  md:my-8 gap-8 px-12 sm:px-12'>
           {
             portfolios.map(({ id, src, link, titulo, tools }) => (
               <div key={id} className='rounded-lg'>
@@ -74,7 +74,7 @@ const Proyectos = () => {
                 <h3 className='flex text-2xl justify-center p-3'>{titulo}</h3>
                 <h3 className='flex justify-center p-3 '>{tools}</h3>
                 <div className='flex items-center justify-center ' >
-                  <button onClick={() => window.location.href = link} className='w-1/3 px-1 py-1 duration-200 hover:scale-105 '>ver demo</button>
+                  <button onClick={() => window.location.href = link} className='w-1/3 px-1 py-1 duration-200 hover:scale-105 mb-10 '>ver demo</button>
                 </div>
               </div>
             ))

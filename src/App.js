@@ -15,8 +15,8 @@ function App() {
       <Home />
       <SobreMi />
       <Experience />
-      <Experience2 />
       <Proyectos />
+      <Experience2 />
       <Contact />
       <SocialLinks />
       <SocialLinksFooter/>
