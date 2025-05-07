@@ -1,25 +1,12 @@
 import React from 'react'
-import logohtml from '../assets/skills/html5.png'
-import logocss from '../assets/skills/logocss.png'
 import bootstrap from '../assets/skills/logoboots.png'
 import javascript from '../assets/skills/javascript.png'
-import github from '../assets/skills/github.png'
 import logoreact from '../assets/skills/logoreact.png'
-import graphql from '../assets/skills/graphql.png'
 import material from '../assets/skills/material.png'
 import tailwind from '../assets/skills/tailwind.png'
-import firebase from '../assets/skills/logofirebase.png'
 import nodejs from '../assets/skills/node.png'
-import mysql from '../assets/skills/mysql.png'
-import mongo from '../assets/skills/hojaverde.png'
-import logoExpress from '../assets/skills/logoExpress.png'
-import logoredis from '../assets/skills/logoredis.png'
-import logomaria from '../assets/skills/logomariadb.png'
-import logosass from '../assets/skills/logosass.png'
-import tullio from '../assets/skills/logotullio.png'
-import Xcode from '../assets/skills/Xcode.png'
-import AndroidSt from '../assets/skills/Android-Studio.png'
-import ExpoGo from '../assets/skills/ExpoGo.png'
+import nextjs from '../assets/skills/next2.png'
+import astro from '../assets/skills/astro.png'
 
 
 
@@ -29,18 +16,7 @@ import ExpoGo from '../assets/skills/ExpoGo.png'
 const Experience = () => {
 
     const techs = [
-        {
-            id: 1,
-            src: logohtml,
-            titulo: 'html 5',
-            style: 'shadow-blue-500'
-        },
-        {
-            id: 2,
-            src: logocss,
-            titulo: 'css',
-            style: 'shadow-gray-200'
-        },
+
         {
             id: 3,
             src: javascript,
@@ -79,95 +55,31 @@ const Experience = () => {
         },
         {
             id: 9,
-            src: mysql,
-            titulo: 'mysql',
-            style: 'shadow-pink-500'
+            src: astro,
+            titulo: "astro",
+            style: 'shadow-blue-900'
+
         },
-        {
-            id: 10,
-            src: logomaria,
-            titulo: 'maria db',
-            style: 'shadow-pink-500'
-        },
-        {
-            id: 11,
-            src: mongo,
-            titulo: 'mongo db',
-            style: 'shadow-pink-500'
-        },
-        {
-            id: 12,
-            src: logoredis,
-            titulo: 'redis',
-            style: 'shadow-pink-500'
-        },
-        {
-            id: 13,
-            src: github,
-            titulo: 'github',
-            style: 'shadow-pink-500'
-        },
-        {
-            id: 14,
-            src: logosass,
-            titulo: 'sass',
-            style: 'shadow-pink-500'
-        },
+
         {
             id: 15,
-            src: firebase,
-            titulo: 'firebase',
+            src: nextjs,
+            titulo: 'next js',
             style: 'shadow-pink-500'
         },
-        {
-            id: 16,
-            src: logoExpress,
-            titulo: 'express',
-            style: 'shadow-pink-500'
-        },
-        {
-            id: 17,
-            src: graphql,
-            titulo: 'graphql',
-            style: 'shadow-pink-500'
-        },
-        {
-            id: 18,
-            src: tullio,
-            titulo: 'tullio',
-            style: 'shadow-pink-500'
-        },
-        {
-            id: 19,
-            src: logoreact,
-            titulo: 'React Native',
-        },
-        {
-            id: 20,
-            src: Xcode,
-            titulo: 'Xcode',
-            style: 'shadow-pink-500'
-        },
-        {
-            id: 21,
-            src: ExpoGo,
-            titulo: 'Expo Go',
-            style: 'shadow-pink-500'
-        },
-        {
-            id: 22,
-            src: AndroidSt,
-            titulo: 'Android Studio',
-            style: 'shadow-pink-500'
-        }
+
+
     ]
 
     return (
         <div name="skills" className='pb-10 bg-gradient-to-t from-gray-900 to-slate-900 py-4 w-full h-full '>
+    
+           
+
             <div className='max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full my-20 text-stone-100'>
                 <div className='px-4'>
-                    <p className='text-5xl capitalize font-bold inline border-b-4  border-gray-100 '>Skills </p>
-                    <p className="text-stone-100 py-6" >tengo conocimientos y manejo de </p>
+                    <p className='text-5xl capitalize font-bold inline border-b-4  border-gray-100 '>Front-End</p>
+                    <p className="text-stone-100 py-6" >conocimientos y manejo de </p>
                 </div>
                 <div className='w-full grid grid-cols-2 sm:grid-cols-9 gap-8 text-center py-8 px-12 sm:px-0'>
                     {
@@ -180,6 +92,7 @@ const Experience = () => {
                     }
                 </div>
             </div>
+           
         </div>
     )
 }

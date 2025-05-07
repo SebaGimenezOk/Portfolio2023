@@ -1,35 +1,79 @@
 import React from 'react'
-import { GoBookmark } from "react-icons/go";
+// import { GoBookmark } from "react-icons/go";
 import { GoChevronRight } from "react-icons/go";
-
 import { Link } from 'react-scroll';
+
+
+
+import Aurora from './Effects';
+
+import SplitText from "./Effects2";
+
+const handleAnimationComplete = () => {
+    console.log('All letters have animated!');
+};
+
+
+
+
+
+
+
+
 
 const Home = () => {
     return (
+
+
+
         <div name='inicio' className='md:h-screen  w-full  bg-gradient-to-t from-gray-900 to-slate-900'>
-            <div className='max-w-screen-lg mx-auto py-10 flex flex-col items-center justify-center h-full  px-4  md:flex-row'>
-                <div className='flex flex-col justify-center h-full  '>
-                    <h3 className='text-5xl sm:text-5xl font-semibold text-stone-100 my-20 mb-2'>
-                        Hola!  soy Desarrollador FrontEnd</h3>
-                        
-                        <h3 className='text-5xl sm:text-5xl font-semibold text-stone-100 my-3 mb-2'>Analista de datos. </h3>
-                    <p className='text-gray-100'>
-                    <GoBookmark size={80} className='my-4' />  Este 2025 trabajemos juntos en tu proyecto!
-                    </p>
-                    <div>
-                        <Link to="skills" smooth duration={500} className='group text-stone-100 w-fit px-6 py-3 my-2 flex items-center rounded-md cursor-pointer bg bg-gradient-to-t from-gray-900 to-slate-800' >
-                            Skills
-                            <span className='group-hover:rotate-90 duration-300'>
-                                <GoChevronRight size={25} className='ml-1' />
-                            </span>
-                        </Link>
-                        
+
+            <Aurora
+                colorStops={["#3A29FF", "#00FFFF", "#6c35de"]}
+                blend={0.5}
+                amplitude={1.0}
+                speed={0.5}
+            />
+
+            <div className='max-w-screen-lg mx-auto py-10 flex flex-col items-center justify-center h-56  px-4 mt-72 '>
+
+                <div className='flex flex-col justify-center   '>
+                    <SplitText
+                        text="Hola, soy Sebastian"
+                        className="text-5xl font-semibold text-center text-white"
+                        delay={50}
+                        animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+                        animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+                        easing="easeOutCubic"
+                        threshold={0.2}
+                        rootMargin="-50px"
+                        onLetterAnimationComplete={handleAnimationComplete}
+                    />
+                   
+                        <h3 className='text-3xl sm:text-5xl font-semibold text-stone-100 my-3 mb-10'>Programador y Analista de datos. </h3>
+                    <div className='flex justify-center gap-3 align-center'>
+                            {/* <GoBookmark size={80} className='my-4 text-white' />   */}
+                        <p className='text-gray-100 pt-6'>
+                            Este 2025 trabajemos juntos!
+                        </p>
+                        <div className='mb-80'>
+                            <Link to="skills" smooth duration={500} className='group text-stone-100 w-fit px-6 py-3 my-2 flex items-center rounded-md cursor-pointer bg bg-gradient-to-t from-gray-900 to-slate-800' >
+                                Skills
+                                <span className='group-hover:rotate-90 duration-300'>
+                                    <GoChevronRight size={25} className='ml-1' />
+                                </span>
+                            </Link>
+
+                        </div>
+
                     </div>
+
+
                 </div>
-                
+
             </div>
-        </div>
+        </div >
     )
 }
-                                                                                                                                            
+
 export default Home

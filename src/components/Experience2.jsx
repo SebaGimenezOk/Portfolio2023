@@ -1,65 +1,64 @@
 import React from "react";
-import Ae from "../assets/skills/Ae.png"
-import Psd from "../assets/skills/Ps.png"
-import Ai from "../assets/skills/Ai.png"
-import Au from "../assets/skills/Au.png"
-import Id from "../assets/skills/Id.png"
-import Xd from "../assets/skills/Xd.png"
-import Lr from "../assets/skills/Lr.png"
+
+import PowerBi from "../assets/skills/powerbi.png"
+import Tableau from "../assets/skills/Tableau.png"
+import Python from "../assets/skills/python.png"
+import SqlServer from '../assets/skills/sql server.png'
+import nodejs from '../assets/skills/node.png'
+import mongo from '../assets/skills/hojaverde.png'
+
+
 
 
 const Experience2 = () => {
 
     const tech2 = [
         {
-            id: 10,
-            src: Xd,
-            titulo: 'Xd',
+            id: 1,
+            src: nodejs,
+            titulo: 'node js',
+            style: 'shadow-pink-500'
+        },
+        
+        {
+            id: 3,
+            src: mongo,
+            titulo: 'mongo db',
             style: 'shadow-pink-500'
         },
         {
-            id: 11,
-            src: Ai,
-            titulo: 'Ai',
+            id: 4,
+            src: SqlServer,
+            titulo: 'sql server',
             style: 'shadow-pink-500'
         },
         {
-            id: 12,
-            src: Psd,
-            titulo: 'Ps',
+            id: 5,
+            src: Tableau,
+            titulo: 'tableau',
             style: 'shadow-pink-500'
         },
         {
-            id: 13,
-            src: Lr,
-            titulo: 'Lr',
+            id: 6,
+            src: Python,
+            titulo: 'python',
             style: 'shadow-pink-500'
         },
         {
-            id: 14,
-            src: Au,
-            titulo: 'Au',
-            style: 'shadow-pink-500'
-        },
-        {
-            id: 15,
-            src: Id,
-            titulo: 'Id',
-            style: 'shadow-pink-500'
-        },
-        {
-            id: 16,
-            src: Ae,
-            titulo: 'Ae',
+            id: 7,
+            src: PowerBi,
+            titulo: 'power bi',
             style: 'shadow-pink-500'
         }
     ]
     return (
         <div name="skills" className=' pb-10 bg-gradient-to-t from-gray-900 to-slate-900 py-8 w-full '>
+          
+           
             <div className='max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full my-20 gap-8 text-stone-100'>
                 <div className="px-4">
-                    <p className='text-5xl capitalize font-bold inline border-b-4 border-gray-100 '>Adobe Suite</p>
-                    <p className="text-stone-100 py-6" >Conocimientos avanzados en Audition, Illustrator,Photoshop...</p>
+                    <p className='text-5xl capitalize font-bold inline border-b-4 border-gray-100 '>Data Analitycs</p>
+                    <p className="text-stone-100 py-6" >Conocimientos y manejo de </p>
                 </div>
                 <div className='w-full grid grid-cols-2 sm:grid-cols-9 gap-8 text-center py-8 px-12 sm:px-0'>
                     {
@@ -72,6 +71,7 @@ const Experience2 = () => {
                     }
                 </div>
             </div>
+            
         </div>
     )
 
