@@ -6,11 +6,11 @@ import fotoPerfil from "../assets/para perfil 23.png"
 
 const SobreMi = () => {
     return (
-        <div name="sobre mi" className='w-full h-full bg-gradient-to-t from-gray-900 to-slate-900 text-stone-100'>
+        <div name="sobre mi" className='w-full h-full bg-gradient-to-t from-blue-950 to-slate-950 text-stone-100'>
            
-            <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center  w-auto'>
+            <div className='max-w-screen-lg p-2 mx-auto flex flex-col justify-center  w-auto'>
 
-                <div className=' pb-4 mb-6 my-20 '>
+                <div className=' pb-2 my-5 '>
                     <p className='text-5xl capitalize font-bold inline border-b-4 border-stone-100'>sobre mi</p>
                 </div>
                 <div className='flex justify-between gap-8'>

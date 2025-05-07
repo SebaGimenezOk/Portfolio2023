@@ -52,10 +52,10 @@ const Experience2 = () => {
         }
     ]
     return (
-        <div name="skills" className=' pb-10 bg-gradient-to-t from-gray-900 to-slate-900 py-8 w-full '>
+        <div name="skills" className=' pb-5 bg-gradient-to-t from-emerald-900 to-emerald-800 py-4 w-full '>
           
            
-            <div className='max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full my-20 gap-8 text-stone-100'>
+            <div className='max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full my-10  text-stone-100'>
                 <div className="px-4">
                     <p className='text-5xl capitalize font-bold inline border-b-4 border-gray-100 '>Data Analitycs</p>
                     <p className="text-stone-100 py-6" >Conocimientos y manejo de </p>
