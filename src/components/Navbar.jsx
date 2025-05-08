@@ -31,7 +31,7 @@ const Navbar = () => {
         },
     ];
     return (
-        <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-gradient-to-t from-gray-900 to-slate-900 fixed z-20'>
+        <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-gradient-to-t from-slate-950 to-slate-900 fixed z-20'>
 
 
             <div>

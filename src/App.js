@@ -15,13 +15,8 @@ import Experience3 from "./components/Experience3";
 function App() {
   return (
     <div>
-
-
-
-
       <Navbar />
       <Home />
-
       <SobreMi />
       <Experience />
       <Experience2 />

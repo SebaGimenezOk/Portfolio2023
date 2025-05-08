@@ -26,16 +26,16 @@ const Home = () => {
 
 
 
-        <div name='inicio' className='md:h-screen  w-full  bg-gradient-to-t from-gray-950 to-slate-900'>
+        <div name='inicio' className='max-w-screen-lg sm:h-screen  w-full  bg-gradient-to-t from-slate-950 to-slate-900'>
 
             <Aurora
                 colorStops={["#3A29FF", "#00FFFF", "#6c35de"]}
                 blend={0.5}
                 amplitude={1.0}
-                speed={0.5}
+                speed={1.0}
             />
 
-            <div className='max-w-screen-lg mx-auto py-10 flex flex-col items-center justify-center h-56  px-4 mt-16'>
+            <div className='max-w-screen-lg mx-auto py-44flex flex-col items-center justify-center h-56  px-4 mt-16'>
 
                 <div className='flex flex-col justify-center   '>
                     <SplitText
