@@ -61,8 +61,8 @@ const Proyectos = () => {
 
   return (
     <div name="proyectos" className='bg-gradient-to-t from-slate-900 to-indigo-950 w-full text-stone-100  md:max-h-full' >
-      <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full gap-8'>
-        <div className='pb-8 mt-32 '>
+      <div className='max-w-screen-lg p-4  justify-center  mx-auto flex flex-col  w-full h-full gap-8'>
+        <div className='pb-8 mt-32  '>
           <p className='text-5xl capitalize font-bold inline border-b-4  border-gray-100'>Proyectos</p>
           <p className="text-stone-100 py-6" >Algunos de mis trabajos:  Logos, Branding, PressKit, Flyers, Banners,etc... ( Todavía en construcción )</p>
         </div>

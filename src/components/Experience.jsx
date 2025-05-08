@@ -72,7 +72,7 @@ const Experience = () => {
     ]
 
     return (
-        <div name="skills" className='pb-5 bg-gradient-to-b from-blue-950 to-blue-900 py-4 w-full h-full '>
+        <div name="skills" className='pb-5 bg-gradient-to-b from-blue-950 to-blue-900 pt-8 w-full h-full '>
     
     
 
