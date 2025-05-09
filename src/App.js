@@ -8,7 +8,7 @@ import SocialLinks from "./components/SocialLinks";
 import Experience2 from "./components/Experience2";
 import SocialLinksFooter from "./components/SocialLinksFooter";
 import Experience3 from "./components/Experience3";
-
+import ScrollToTopButton from "./components/TopButton";
 
 
 
@@ -25,6 +25,7 @@ function App() {
       <Contact />
       <SocialLinks />
       <SocialLinksFooter />
+      <ScrollToTopButton/>
     </div>
 
 
