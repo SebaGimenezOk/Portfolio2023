@@ -33,8 +33,11 @@ const Navbar = () => {
     return (
         <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-gradient-to-t from-slate-950 to-slate-900 fixed z-20'>
 
-
-            <div>
+            <div className='flex items-center'>
+            <img
+                src="/logoconfondo.png"
+                className="w-22 h-20 object-cover"
+            />
                 <h1 className='text-5xl font-signature  mx-3'> Sebastian Gimenez</h1>
             </div>
             <ul className='hidden md:flex'>
@@ -55,7 +58,7 @@ const Navbar = () => {
                     ))}
                 </ul>
             )}
-            
+
 
         </div>
     )

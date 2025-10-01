@@ -7,6 +7,34 @@ import SimpsonsGame from "../assets/works/SimpsonGamePortada.png"
 import pontecle from "../assets/works/pontecle.png"
 
 
+
+
+
+
+const items = [
+  {
+    image: "https://i.pravatar.cc/300?img=1",
+    title: "Sarah Johnson",
+    subtitle: "Frontend Developer",
+    handle: "@sarahjohnson",
+    borderColor: "#3B82F6",
+    gradient: "linear-gradient(145deg, #3B82F6, #000)",
+    url: "https://github.com/sarahjohnson"
+  },
+  {
+    image: "https://i.pravatar.cc/300?img=2",
+    title: "Mike Chen",
+    subtitle: "Backend Engineer",
+    handle: "@mikechen",
+    borderColor: "#10B981",
+    gradient: "linear-gradient(180deg, #10B981, #000)",
+    url: "https://linkedin.com/in/mikechen"
+  }
+];
+
+
+
+
 const Proyectos = () => {
 
   const portfolios = [
@@ -66,7 +94,8 @@ const Proyectos = () => {
           <p className='text-5xl capitalize font-bold inline border-b-4  border-gray-100'>Proyectos</p>
           <p className="text-stone-100 py-6" >Algunos de mis trabajos:  Logos, Branding, PressKit, Flyers, Banners,etc... ( Todavía en construcción )</p>
         </div>
-        <div className='grid sm:grid-cols-2 md:grid-cols-3  md:my-8 gap-8 px-12 sm:px-12'>
+        
+         <div className='grid sm:grid-cols-2 md:grid-cols-3  md:my-8 gap-8 px-12 sm:px-12'>
           {
             portfolios.map(({ id, src, link, titulo, tools }) => (
               <div key={id} className='rounded-lg'>
@@ -79,7 +108,7 @@ const Proyectos = () => {
               </div>
             ))
           }
-        </div>
+        </div> 
       </div>
     </div>
 

@@ -42,7 +42,7 @@ const SocialLinksFooter = () => {
                     Mi CV <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: '/Sebastian CV julio2024.pdf',
+            href: '/Sebastian CV SEPT 2025.pdf',
             style: 'rounded-br-md',
             download: true,
         },
